@@ -1,0 +1,22 @@
+body {
+  overflow-x: hidden;
+}
+
+.menu-item {
+   text-decoration: none;
+}
+
+.card {
+   width: 22rem;
+   margin: 1rem
+}
+
+@media screen and (max-width: 460px) {
+  .animation {
+    width: 300px;
+  }
+
+  .card {
+   width: 15rem;
+ }
+}
